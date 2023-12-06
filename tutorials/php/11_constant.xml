@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<main>
+	<heading1>PHP Constants</heading1>
+	<text>
+		<heading2> </heading2>
+		<para>Constants are like variables except that once they are defined they cannot be changed or undefined.</para>
+		<list>
+			<li_title>Parameters:</li_title>
+			<item>name: Specifies the name of the constant</item>
+			<item>value: Specifies the value of the constant</item>
+			<item>case-insensitive: Specifies whether the constant name should be case-insensitive. Default is false</item>
+		</list>
+		<para> </para>
+	</text>
+	<editor>
+		<title>Example</title>
+		<dis> </dis>
+		<syntax><![CDATA[<?php
+define("GREETING", "Welcome to CodeOnline!");
+echo GREETING;
+?>]]></syntax>
+	</editor>
+</main>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<main>
+	<heading1>PHP Print Statements</heading1>
+	<text>
+		<heading2> </heading2>
+		<para>The print statement can be used with or without parentheses: print or print().</para>
+		<list>
+			<li_title>Display Text</li_title>
+			<item>The following example shows how to output text with the print command (notice that the text can contain HTML markup):</item>
+			<item>Display Variables</item>
+			<item>The following example shows how to output text and variables with the print statement:</item>
+		</list>
+		<para> </para>
+	</text>
+	<editor>
+		<title>Example</title>
+		<dis> </dis>
+		<syntax><![CDATA[<?php
+print "<h2>PHP is Fun!</h2>";
+print "Hello world!<br>";
+print "I'm about to learn PHP!";
+?>]]></syntax>
+	</editor>
+</main>

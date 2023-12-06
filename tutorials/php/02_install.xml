@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<main>
+	<heading1>PHP Installation</heading1>
+	<text>
+		<heading2>What Do I Need?</heading2>
+		<para>To start using PHP, you can:
+		Find a web host with PHP and MySQL support.Install a web server on your own PC, and then install PHP and MySQL</para>
+		<list>
+			<li_title>Set Up PHP on Your Own PC</li_title>
+			<item>install a web server</item>
+			<item>install PHP</item>
+			<item>install a database, such as MySQL</item>
+		</list>
+		<para>The official PHP website (PHP.net) has installation instructions for PHP: http://php.net/manual/en/install.php</para>
+	</text>
+	<editor>
+		<title>PHP Online Compiler / Editor</title>
+		<dis> </dis>
+		<syntax><![CDATA[<?php
+$txt = "PHP";
+echo "I love $txt!";
+?>]]></syntax>
+	</editor>
+</main>

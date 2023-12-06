@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<main>
+	<heading1>Python Data Types</heading1>
+	<text>
+		<heading2>Built-in Data Types</heading2>
+		<para>In programming, data type is an important concept.Variables can store data of different types, and different types can do different things.</para>
+		<list>
+			<li_title>Python has the following data types built-in by default, in these categories:</li_title>
+			<item>Text Type:	str</item>
+			<item>Numeric Types:	int, float, complex</item>
+			<item>Sequence Types:	list, tuple, range</item>
+			<item>Mapping Type:	dict</item>
+			<item>Set Types:	set, frozenset</item>
+			<item>Boolean Type:	bool</item>
+			<item>Binary Types:	bytes, bytearray, memoryview</item>
+			<item>None Type:	NoneType</item>
+		</list>
+		<para> </para>
+	</text>
+	<editor>
+		<title>Example</title>
+		<dis> </dis>
+		<syntax><![CDATA[x = 5
+y = "Hello World"
+print(type(x))
+print(type(y))
+
+ ]]></syntax>
+	</editor>
+</main>

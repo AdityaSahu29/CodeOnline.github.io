@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<main>
+	<heading1>Python Numbers</heading1>
+	<text>
+		<heading2>Python Numbers</heading2>
+		<para>There are three numeric types in Python:</para>
+		<list>
+			<li_title> </li_title>
+			<item>Int, or integer, is a whole number, positive or negative, without decimals, of unlimited length.</item>
+			<item>Float, or "floating point number" is a number, positive or negative, containing one or more decimals.</item>
+			<item>Complex numbers are written with a "j" as the imaginary part:</item>
+		</list>
+		<para> </para>
+	</text>
+	<editor>
+		<title>Example</title>
+		<dis> </dis>
+		<syntax><![CDATA[x = 1    # int
+y = 2.8  # float
+z = 1j   # complex
+  ]]></syntax>
+	</editor>
+</main>

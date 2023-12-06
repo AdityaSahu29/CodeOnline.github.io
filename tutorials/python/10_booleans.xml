@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<main>
+	<heading1>Python Booleans</heading1>
+	<text>
+		<heading2>Booleans</heading2>
+		<para>Booleans represent one of two values: True or False.</para>
+		<list>
+			<li_title>Boolean Values: </li_title>
+			<item>In programming you often need to know if an expression is True or False.</item>
+			<item>You can evaluate any expression in Python, and get one of two answers, True or False.</item>
+			<item>When you compare two values, the expression is evaluated and Python returns the Boolean answer</item>
+		</list>
+		<para> </para>
+	</text>
+	<editor>
+		<title>Example</title>
+		<dis> </dis>
+		<syntax><![CDATA[print(10 > 9)
+print(10 == 9)
+print(10 < 9)
+  ]]></syntax>
+	</editor>
+</main>

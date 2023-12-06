@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<main>
+	<heading1>C Comments</heading1>
+	<text>
+		<heading2>Comments in C</heading2>
+		<para>Comments can be used to explain code, and to make it more readable. It can also be used to prevent execution when testing alternative code.Comments can be singled-lined or multi-lined.</para>
+		<list>
+			<li_title> Comments </li_title>
+			<item>Single-line comments start with two forward slashes (//).</item>
+			<item>Any text between // and the end of the line is ignored by the compiler (will not be executed).</item>
+			<item>Multi-line comments start with /* and ends with */.</item>
+			<item>Any text between /* and */ will be ignored by the compiler</item>
+			<item>Tip: Two \n characters after each other will create a blank line</item>
+		</list>
+		<para> </para>
+	</text>
+	<editor>
+		<title>Example</title>
+		<dis> </dis>
+		<syntax><![CDATA[#include <stdio.h>
+
+int main() {
+  // This is a comment
+  printf("Hello World!");
+  /* The code below will print the words Hello World!
+  to the screen, and it is amazing */
+  printf("Hello World!");
+  return 0;
+}]]></syntax>
+	</editor>
+</main>

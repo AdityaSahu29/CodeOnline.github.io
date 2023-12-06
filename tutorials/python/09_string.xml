@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<main>
+	<heading1>Python Strings</heading1>
+	<text>
+		<heading2>Strings</heading2>
+		<para>Strings in python are surrounded by either single quotation marks, or double quotation marks.'hello' is the same as "hello".You can display a string literal with the print() function</para>
+		<list>
+			<li_title>Assign String to a Variable: </li_title>
+			<item>Assigning a string to a variable is done with the variable name followed by an equal sign and the string</item>
+			<item>You can assign a multiline string to a variable by using three quotes</item>
+			<item>Or three single quotes</item>
+		</list>
+		<para> </para>
+	</text>
+	<editor>
+		<title>Example</title>
+		<dis> </dis>
+		<syntax><![CDATA[a = "Hello"
+print(a)
+b = """Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua."""
+print(b)
+  ]]></syntax>
+	</editor>
+</main>

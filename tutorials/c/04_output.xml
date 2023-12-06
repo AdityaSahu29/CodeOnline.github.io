@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<main>
+	<heading1>C Output (Print Text)</heading1>
+	<text>
+		<heading2>Output (Print Text)</heading2>
+		<para></para>
+		<list>
+			<li_title> </li_title>
+			<item>To output values or print text in C, you can use the printf() function:</item>
+			<item>You can use as many printf() functions as you want. However, note that it does not insert a new line at the end of the output</item>
+			<item>To insert a new line, you can use the \n character</item>
+			<item>You can also output multiple lines with a single printf() function. However, this could make the code harder to read</item>
+			<item>Tip: Two \n characters after each other will create a blank line</item>
+		</list>
+		<para> </para>
+	</text>
+	<editor>
+		<title>Example</title>
+		<dis> </dis>
+		<syntax><![CDATA[#include <stdio.h>
+
+int main() {
+  printf("Hello World!");
+  printf("I am learning C.");
+  return 0;
+}]]></syntax>
+	</editor>
+</main>

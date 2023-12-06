@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<main>
+	<heading1>PHP Echo Statements</heading1>
+	<text>
+		<heading2> </heading2>
+		<para>With PHP, there are two basic ways to get output: echo and print.
+In this tutorial we use echo or print in almost every example. So, this chapter contains a little more info about those two output statements.</para>
+		<list>
+			<li_title>Rules for PHP variables:</li_title>
+			<item>A variable starts with the $ sign, followed by the name of the variable</item>
+			<item>A variable name must start with a letter or the underscore character</item>
+			<item>A variable name cannot start with a number</item>
+			<item>A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )</item>
+			<item>Variable names are case-sensitive ($age and $AGE are two different variables)</item>
+		</list>
+		<para>The PHP echo statement is often used to output data to the screen.The following example will show how to output text and a variable:</para>
+	</text>
+	<editor>
+		<title>Example</title>
+		<dis> </dis>
+		<syntax><![CDATA[<?php
+$txt = "W3Schools.com";
+echo "I love $txt!";
+echo "\n";
+echo "I love " . $txt . "!";
+echo "\n";
+$x = 5;
+$y = 4;
+echo $x + $y;
+?>]]></syntax>
+	</editor>
+</main>

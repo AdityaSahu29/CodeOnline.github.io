@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<main>
+	<heading1>C++ Output (Print Text)</heading1>
+	<text>
+		<heading2>C++ Output (Print Text)</heading2>
+		<para>The cout object, together with the &lt; &lt; operator, is used to output values/print text</para>
+		<list>
+			<li_title> </li_title>
+			
+		</list>
+		<para> You can add as many cout objects as you want. However, note that it does not insert a new line at the end of the output </para>
+	</text>
+	<editor>
+		<title>Example</title>
+		<dis> </dis>
+		<syntax><![CDATA[#include <iostream>
+using namespace std;
+
+int main() {
+  cout << "Hello World!";
+  cout << "I am learning C++";
+  return 0;
+}]]></syntax>
+	</editor>
+</main>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<main>
+	<heading1>PHP Home</heading1>
+	<text>
+		<heading2>What is PHP?</heading2>
+		<para></para>
+		<list>
+			<li_title> </li_title>
+			<item>PHP is an acronym for "PHP: Hypertext Preprocessor"</item>
+			<item>PHP is a widely-used, open source scripting language</item>
+			<item>PHP scripts are executed on the server</item>
+			<item>PHP is free to download and use</item>
+			<item>PHP files can contain text, HTML, CSS, JavaScript, and PHP code</item>
+			<item>PHP code is executed on the server, and the result is returned to the browser as plain HTML</item>
+			<item>PHP files have extension ".php"</item>
+			<item>PHP can generate dynamic page content</item>
+			<item>PHP can create, open, read, write, delete, and close files on the server</item>
+			<item>PHP can collect form data</item>
+			<item>PHP can send and receive cookies</item>
+			<item>PHP can add, delete, modify data in your database</item>
+			<item>PHP can be used to control user-access</item>
+			<item>PHP can encrypt data</item>
+		</list>
+		<para></para>
+	</text>
+	<editor>
+		<title>Example</title>
+		<dis> </dis>
+		<syntax><![CDATA[<?php
+echo "HELLO WORLD!!!";
+?>]]></syntax>
+	</editor>
+</main>

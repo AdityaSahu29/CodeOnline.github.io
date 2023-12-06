@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<main>
+	<heading1>HTML HOME</heading1>
+	<text>
+		<heading2>HTML is the standard markup language for creating Web pages.</heading2>
+		<para> </para>
+		<list>
+			<li_title> What is HTML? </li_title>
+			<item>HTML stands for Hyper Text Markup Language</item>
+			<item>HTML is the standard markup language for creating Web pages</item>
+			<item>HTML describes the structure of a Web page</item>
+			<item>HTML consists of a series of elements</item>
+			<item>HTML elements tell the browser how to display the content</item>
+			<item>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</item>
+			
+		</list>
+		<para> What is an HTML Element?
+An HTML element is defined by a start tag, some content, and an end tag:
+
+&lt; tagname&gt;  Content goes here... &lt; /tagname&gt;
+The HTML element is everything from the start tag to the end tag:
+
+&lt; h1&gt;My First Heading&lt; /h1&gt;
+&lt; p&gt;My first paragraph.&lt; /p&gt;</para>
+	</text>
+	
+</main>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<main>
+	<heading1>C Data Types</heading1>
+	<text>
+		<heading2>Data Types</heading2>
+		<para>As explained in the Variables chapter, a variable in C must be a specified data type, and you must use a format specifier inside the printf() function to display it.</para>
+		<list>
+			<li_title>Basic Data Types</li_title>
+			<item>int:	2 or 4 bytes	Stores whole numbers, without decimals</item>
+			<item>float: 4 bytes	Stores fractional numbers, containing one or more decimals. Sufficient for storing 6-7 decimal digits</item>
+			<item>double:	8 bytes	Stores fractional numbers, containing one or more decimals. Sufficient for storing 15 decimal digits</item>
+			<item>char:	1 byte	Stores a single character/letter/number, or ASCII values</item>
+		</list>
+		<para> </para>
+	</text>
+	<editor>
+		<title>Example</title>
+		<dis> </dis>
+		<syntax><![CDATA[#include <stdio.h>
+
+int main() {
+  float myFloatNum = 3.5;
+  double myDoubleNum = 19.99;
+
+  printf("%f\n", myFloatNum); // Outputs 3.500000
+  printf("%lf", myDoubleNum); // Outputs 19.990000
+  return 0;
+}]]></syntax>
+	</editor>
+</main>

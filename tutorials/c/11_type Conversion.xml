@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<main>
+	<heading1>C Type Conversion</heading1>
+	<text>
+		<heading2>Type Conversion</heading2>
+		<para>Sometimes, you have to convert the value of one data type to another type. This is known as type conversion.For example, if you try to divide two integers, 5 by 2, you would expect the result to be 2.5. But since we are working with integers (and not floating-point values), the following example will just output 2</para>
+		<list>
+			<li_title>There are two types of conversion in C</li_title>
+			<item>Implicit conversion is done automatically by the compiler when you assign a value of one type to another.For example, if you assign an int value to a float type</item>
+			<item>Explicit conversion is done manually by placing the type in parentheses () in front of the value.Considering our problem from the example above, we can now get the right result</item>
+		</list>
+		<para> </para>
+	</text>
+	<editor>
+		<title>Example</title>
+		<dis> </dis>
+		<syntax><![CDATA[#include <stdio.h>
+
+int main() {
+  // Automatic conversion: int to float
+  float myFloat = 9;
+
+  printf("%f", myFloat); // 9.000000
+  
+  // Manual conversion: int to float
+  float sum = (float) 5 / 2;
+
+  printf("%f", sum); // 2.500000
+  return 0;
+}]]></syntax>
+	</editor>
+</main>

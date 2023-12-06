@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<main>
+	<heading1>C Home</heading1>
+	<text>
+		<heading2>What is C? </heading2>
+		<para>C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972.It is a very popular language, despite being old.C is strongly associated with UNIX, as it was developed to write the UNIX operating system.</para>
+		<list>
+			<li_title>Why Learn C?</li_title>
+			<item>It is one of the most popular programming language in the world</item>
+			<item>If you know C, you will have no problem learning other popular programming languages such as Java, Python, C++, C#, etc, as the syntax is similar</item>
+			<item>C is very fast, compared to other programming languages, like Java and Python</item>
+			<item>C is very versatile; it can be used in both applications and technologies</item>
+		</list>
+		<para> </para>
+	</text>
+	
+</main>

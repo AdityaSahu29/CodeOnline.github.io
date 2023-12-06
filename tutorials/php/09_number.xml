@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<main>
+	<heading1>PHP Numbers</heading1>
+	<text>
+		<heading2> </heading2>
+		<para>One thing to notice about PHP is that it provides automatic data type conversion.So, if you assign an integer value to a variable, the type of that variable will automatically be an integer. Then, if you assign a string to the same variable, the type will change to a string.This automatic conversion can sometimes break your code.</para>
+		<list>
+			<li_title>Here are some rules for integers:</li_title>
+			<item>An integer must have at least one digit</item>
+			<item>An integer must NOT have a decimal point</item>
+			<item>An integer can be either positive or negative</item>
+			<item>Integers can be specified in three formats: decimal (10-based), hexadecimal (16-based - prefixed with 0x) or octal (8-based - prefixed with 0)</item>
+			<item>PHP_INT_MAX - The largest integer supported</item>
+			<item>PHP_INT_MIN - The smallest integer supported</item>
+			<item>PHP_INT_SIZE -  The size of an integer in bytes</item>
+		</list>
+		<para> </para>
+	</text>
+	<editor>
+		<title>Example</title>
+		<dis> </dis>
+		<syntax><![CDATA[<?php
+$x = 5985;
+var_dump(is_int($x));
+
+$x = 59.85;
+var_dump(is_int($x));
+?>]]></syntax>
+	</editor>
+</main>

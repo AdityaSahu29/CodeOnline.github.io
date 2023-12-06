@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<main>
+	<heading1>Python Home</heading1>
+	<text>
+		<heading2>What is Python? </heading2>
+		<para>Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.</para>
+		<list>
+			<li_title>It is used for:</li_title>
+			<item>web development (server-side),</item>
+			<item>software development,</item>
+			<item>mathematics,</item>
+			<item>system scripting</item>
+		</list>
+		<para> </para>
+	</text>
+	<editor>
+		<title>Example</title>
+		<dis> </dis>
+		<syntax><![CDATA[print("Hello, World!")]]></syntax>
+	</editor>
+</main>

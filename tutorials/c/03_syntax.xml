@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<main>
+	<heading1>C Syntax</heading1>
+	<text>
+		<heading2>Syntax</heading2>
+		<para>You have already seen the following code a couple of times in the first chapters. Let's break it down to understand it better</para>
+		<list>
+			<li_title>Example explained</li_title>
+			<item>web development (server-side),Line 1: &lt; #include stdio.h &gt; is a header file library that lets us work with input and output functions, such as printf() (used in line 4). Header files add functionality to C programs.</item>
+			<item>Line 2: A blank line. C ignores white space. But we use it to make the code more readable.</item>
+			<item>Line 3: Another thing that always appear in a C program, is main(). This is called a function. Any code inside its curly brackets {} will be executed.</item>
+			<item>Line 4: printf() is a function used to output/print text to the screen. In our example it will output "Hello World".</item>
+			<item>Line 5: return 0 ends the main() function.</item>
+			<item>Line 6: Do not forget to add the closing curly bracket } to actually end the main function.</item>
+		</list>
+		<para> </para>
+	</text>
+	<editor>
+		<title>Example</title>
+		<dis> </dis>
+		<syntax><![CDATA[#include <stdio.h>
+
+int main() {
+  printf("Hello World!");
+  return 0;
+}]]></syntax>
+	</editor>
+</main>

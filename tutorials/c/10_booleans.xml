@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<main>
+	<heading1>C Booleans</heading1>
+	<text>
+		<heading2>Booleans</heading2>
+		<para>In C, the bool type is not a built-in data type, like int or char.</para>
+		<list>
+			<li_title>Very often, in programming, you will need a data type that can only have one of two values, like</li_title>
+			<item>YES / NO</item>
+			<item>ON / OFF</item>
+			<item>TRUE / FALSE</item>
+			<item>char:	1 byte	Stores a single character/letter/number, or ASCII values</item>
+		</list>
+		<para> </para>
+	</text>
+	<editor>
+		<title>Example</title>
+		<dis> </dis>
+		<syntax><![CDATA[#include <stdio.h>
+#include <stdbool.h>  // Import the boolean header file 
+
+int main() {
+  bool isProgrammingFun = true;
+  bool isFishTasty = false;
+  printf("%d\n", isProgrammingFun);  // Returns 1 (true)
+  printf("%d", isFishTasty);         // Returns 0 (false)
+  
+  return 0;
+}]]></syntax>
+	</editor>
+</main>

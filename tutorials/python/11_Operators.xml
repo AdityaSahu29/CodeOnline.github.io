@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<main>
+	<heading1>Python Operators</heading1>
+	<text>
+		<heading2>Python Operators</heading2>
+		<para>Operators are used to perform operations on variables and values.</para>
+		<list>
+			<li_title>Python divides the operators in the following groups: </li_title>
+			<item>Arithmetic operators</item>
+			<item>Assignment operators</item>
+			<item>Comparison operators</item>
+			<item>Logical operators</item>
+			<item>Identity operators</item>
+			<item>Membership operators</item>
+			<item>Bitwise operators</item>
+		</list>
+		<para> </para>
+	</text>
+	<editor>
+		<title>Example</title>
+		<dis> </dis>
+		<syntax><![CDATA[print((6 + 3) - (6 + 3))
+print(100 + 5 * 3)
+print(5 + 4 - 7 + 3)
+  ]]></syntax>
+	</editor>
+</main>

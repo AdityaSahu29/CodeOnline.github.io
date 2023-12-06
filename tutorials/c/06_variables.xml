@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<main>
+	<heading1>C Variables</heading1>
+	<text>
+		<heading2>Variables</heading2>
+		<para>Variables are containers for storing data values, like numbers and characters.</para>
+		<list>
+			<li_title>In C, there are different types of variables (defined with different keywords), for example:</li_title>
+			<item>int - stores integers (whole numbers), without decimals, such as 123 or -123</item>
+			<item>float - stores floating point numbers, with decimals, such as 19.99 or -19.99</item>
+			<item>char - stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes</item>
+		</list>
+		<para> </para>
+	</text>
+	<editor>
+		<title>Example</title>
+		<dis> </dis>
+		<syntax><![CDATA[#include <stdio.h>
+
+int main() {
+  int myNum = 15;            // Integer (whole number)
+  float myFloatNum = 5.99;   // Floating point number
+  char myLetter = 'D';       // Character
+
+  // Print variables
+  printf("%d\n", myNum);
+  printf("%f\n", myFloatNum);
+  printf("%c\n", myLetter);
+  return 0;
+}]]></syntax>
+	</editor>
+</main>

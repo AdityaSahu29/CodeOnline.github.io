@@ -1,0 +1,103 @@
+#xml_heading1{
+    color:red ;
+    padding: 10px 10px ;
+}
+
+
+#xml_heading2{
+    color:blue ;
+    padding: 10px 10px ;
+
+}
+
+#xml_para{
+    font-size: 22px;
+    padding: 0px 10px ;
+}
+
+#xml_editorTitle{
+    font-size: 22px;
+    padding: 0px 10px ;
+}
+#xml_editorSyntax{
+    font-size: 22px;
+    padding: 0px 10px ;
+}
+
+#xml_li_head{
+    font-size: 22px;
+    padding: 0px 10px ;
+}
+
+#xml_listitem{
+    font-size: 22px;
+    margin-left: 50px;
+    padding: 0px 10px ;
+}
+
+/* editor.php */
+
+.xml_edit-Mcontainer {
+    display: table;
+    height: 30%;
+    /* align-items: center;
+    justify-content: center; */
+    border: 1px solid black;
+}
+
+#editor {
+    width: 100%;
+    /* height: 100%; */
+    resize: none;
+    font-size: 22px;
+    outline: none;
+    margin: 0px;
+    padding: 10px 10px;
+}
+
+.CodeMirror {
+    font-size: 18px;
+}
+
+.output-tag{
+    font-size: 18px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+}
+
+#output {
+    /* border: 2px solid rgb(255, 255, 255); */
+    /* height: 100%; */
+    width: 100%;
+    resize: none;
+    font-size: 18px;
+    margin: 0px;
+    padding: 10px 10px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+.button-container {
+    text-align: right;
+    padding:1px 5px;
+    background-color: #b1b1b1;
+    border: 1px solid black;
+}
+
+.btn {
+    background: #00ccaa;
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
+    margin: 5px;
+    padding: 10px 25px;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 18px;
+
+}
+
+.btn:hover {
+    background-color: #00a78b;
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<main>
+	<heading1>PHP Operators</heading1>
+	<text>
+		<heading2> </heading2>
+		<para>Operators are used to perform operations on variables and values.</para>
+		<list>
+			<li_title>PHP divides the operators in the following groups:</li_title>
+			<item>Arithmetic operators</item>
+			<item>Assignment operators</item>
+			<item>Comparison operators</item>
+			<item>Increment/Decrement operators</item>
+			<item>Logical operators</item>
+			<item>String operators</item>
+			<item>Array operators</item>
+			<item>Conditional assignment operators</item>
+		</list>
+		<para> </para>
+	</text>
+	<editor>
+		<title>Example</title>
+		<dis> </dis>
+		<syntax><![CDATA[<?php
+define("GREETING", "Welcome to CodeOnline!");
+echo GREETING;
+?>]]></syntax>
+	</editor>
+</main>

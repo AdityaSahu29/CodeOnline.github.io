@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<main>
+	<heading1>PHP Math</heading1>
+	<text>
+		<heading2> </heading2>
+		<para>PHP has a set of math functions that allows you to perform mathematical tasks on numbers.</para>
+		<list>
+			<li_title>PHP math functions</li_title>
+			<item>The pi() function returns the value of PI</item>
+			<item>The min() and max() functions can be used to find the lowest or highest value in a list of arguments</item>
+			<item>The abs() function returns the absolute (positive) value of a number</item>
+			<item>The sqrt() function returns the square root of a number:</item>
+			<item>The round() function rounds a floating-point number to its nearest integer:</item>
+			<item>The rand() function generates a random number:</item>
+		</list>
+		<para> </para>
+	</text>
+	<editor>
+		<title>Example</title>
+		<dis> </dis>
+		<syntax><![CDATA[<?php
+echo(pi());
+echo",";
+echo(min(0, 150, 30, 20, -8, -200));
+echo",";
+echo(max(0, 150, 30, 20, -8, -200)); 
+echo",";
+echo(abs(-6.7));
+echo",";
+echo(sqrt(64)); 
+echo",";
+echo(round(0.60));
+echo",";
+echo(rand());
+?>]]></syntax>
+	</editor>
+</main>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<main>
+	<heading1>PHP Strings</heading1>
+	<text>
+		<heading2> </heading2>
+		<para>A string is a sequence of characters, like "Hello world!".</para>
+		<list>
+			<li_title>PHP String Functions</li_title>
+			<item>strlen() - Return the Length of a String</item>
+			<item>str_word_count() - Count Words in a String</item>
+			<item>strrev() - Reverse a String</item>
+			<item>strpos() - Search For a Text Within a String</item>
+			<item>str_replace() - Replace Text Within a String</item>
+		</list>
+		<para> </para>
+	</text>
+	<editor>
+		<title>Example</title>
+		<dis> </dis>
+		<syntax><![CDATA[<?php
+echo strlen("Hello world!"); 
+echo strrev("Hello world!");
+echo strpos("Hello world!", "world");
+echo str_replace("world", "Dolly", "Hello world!");
+?>]]></syntax>
+	</editor>
+</main>
